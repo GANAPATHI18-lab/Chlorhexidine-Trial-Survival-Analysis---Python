@@ -1,0 +1,26 @@
+Setup and Dependencies:
+The analysis is designed to be run in a Python environment, preferably a Google Colab notebook, as indicated in the source file structure.
+
+Prerequisites:
+Data File: The Excel data file named Data form Chlorhexidine Trial.xlsx must be present in the expected location (/content/Data form Chlorhexidine Trial.xlsx).
+
+
+Required Libraries:
+
+lifelines: The core library for survival analysis.
+
+pandas: For data manipulation and loading.
+
+numpy: For numerical operations.
+
+matplotlib: For plotting.
+
+os, gc: Standard libraries.
+
+
+Installation
+If running in a local environment or an environment without lifelines, install it first:
+
+Bash
+
+pip install lifelines pandas numpy matplotlib
